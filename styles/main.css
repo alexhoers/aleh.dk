@@ -29,7 +29,10 @@ html,
 body {
   height: 100%;
   font-family: "Courier New", Courier, monospace;
+  background: slategray; /* slategray; */
+  color: black;
 }
+
 
 body {
   display: -ms-flexbox;
@@ -45,7 +48,7 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: bold;
 }
 
@@ -89,6 +92,7 @@ header {
 }
 .masthead {
   margin-bottom: 2rem;
+  
 }
 
 .masthead-brand {
@@ -129,6 +133,7 @@ header {
 @media (min-width: 1200px) {
   .container {
     width: 1300px;
+    background-color: white;
   }
 }
 
