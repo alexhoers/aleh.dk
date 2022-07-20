@@ -130,7 +130,7 @@ header {
 }
 
 .container {
-  width: 1300px;
+  
   height: 100%;
   background: white;
 }
@@ -193,3 +193,4 @@ table.paleBlueRows thead th:first-child {
 table.paleBlueRows tfoot td {
   font-size: 12px;
 }
+
