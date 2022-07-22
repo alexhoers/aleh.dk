@@ -57,6 +57,7 @@ a.nav-link:hover {
 .bottom-bar {
   background-color: var(--bottom-bar-color);
   padding: 20px;
+  box-shadow: 0 1px 0px 0 rgb(0 0 0 / 14%);
 }
 
 .job-title {
