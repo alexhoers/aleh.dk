@@ -1,8 +1,13 @@
 /* Variables */
 :root {
+  /*
   --top-bar-color: #6e7f80;
   --middle-bar-color: #536872;
   --bottom-bar-color: #708090;
+  */
+  --top-bar-color: #005b96;
+  --middle-bar-color: #03396c;
+  --bottom-bar-color: #011f4b;
   --body-color: #f7f7f7;
   --time-line-color: #36454f;
   --white-text-color: whitesmoke;
@@ -35,7 +40,7 @@ h2 {
 }
 
 a.nav-link {
-  color: var(--time-line-color) !important;
+  color: black !important; /* var(--time-line-color)*/
 }
 
 a.nav-link:hover {
@@ -171,16 +176,17 @@ a.nav-link:hover {
   height: 180px;
 }
 
-.skill-tag {
+.competency {
   box-shadow: 0 1px 4px 0rgba (0, 0, 0, 0.14);
   padding: 6px 30px;
   display: inline-block;
   margin-right: 10px;
-  border: 1px solid #f5f5f5;
+  border: 1px solid var(--gray-text-color);
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 16px;
   color: var(--gray-text-color);
+  border-radius:20px;
 }
 
 .level {
@@ -188,7 +194,7 @@ a.nav-link:hover {
   margin-bottom: 15px;
 }
 
-.bottom-skills {
+.bottom-competencies {
   margin-top: 50px;
 }
 
