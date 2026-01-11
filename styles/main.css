@@ -124,16 +124,18 @@ a.nav-link:hover {
 }
 
 .timeline .work-place {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .timeline .employee {
-  position: absolute;
-  right: 0;
-  top: 2px;
   color: #8a8a8a;
+  font-size: 0.9rem;
+  white-space: nowrap;
 }
-
 .timeline .job-meta {
   position: absolute;
   left: -280px;
@@ -239,6 +241,15 @@ a.nav-link:hover {
 
   .intro {
     padding: 0 !important;
+  }
+
+    .timeline .work-place {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .timeline .employee {
+    white-space: normal;
   }
 }
 
